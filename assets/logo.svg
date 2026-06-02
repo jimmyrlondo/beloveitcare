@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" aria-label="Be Love It Care">
+  <defs>
+    <linearGradient id="blcGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b2a86"/>
+      <stop offset="0.55" stop-color="#d68fd6"/>
+      <stop offset="1" stop-color="#ec0b43"/>
+    </linearGradient>
+  </defs>
+  <!-- abstract heart-bloom mark: two interlocking petals forming a heart/star -->
+  <path d="M32 12 C24 18, 18 22, 18 30 C18 38, 26 44, 32 52 C38 44, 46 38, 46 30 C46 22, 40 18, 32 12 Z"
+        stroke="url(#blcGrad)" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+  <path d="M32 20 L36 28 L44 30 L37 35 L39 44 L32 39 L25 44 L27 35 L20 30 L28 28 Z"
+        fill="url(#blcGrad)" opacity="0.18"/>
+  <circle cx="32" cy="32" r="3" fill="url(#blcGrad)"/>
+</svg>
