@@ -1,6 +1,6 @@
-# Be Love It Care — Website
+# Beloveit Care — Website
 
-A static marketing website for Be Love It Care, an Ohio agency providing in-home and community-based support for youth and adults with disabilities.
+A static marketing website for Beloveit Care, an Ohio agency providing in-home and community-based support for youth and adults with disabilities.
 
 ---
 
@@ -70,7 +70,7 @@ const CC_EMAIL = 'info@beloveitcare.com';            // CC on every submission
 const ENDPOINT = 'https://formsubmit.co/ajax/' + encodeURIComponent(PRIMARY_EMAIL);
 ```
 
-Every form submission delivers to `a.nicole@upstarmhs.com` with `info@beloveitcare.com` CC'd, subject prefixed `[Be Love It Care] {form name}`.
+Every form submission delivers to `a.nicole@upstarmhs.com` with `info@beloveitcare.com` CC'd, subject prefixed `[Beloveit Care] {form name}`.
 
 **The endpoint is already activated.** No further setup needed.
 

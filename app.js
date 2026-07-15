@@ -1,5 +1,5 @@
 // ============================================================
-// Be Love It Care — site interactions
+// Beloveit Care — site interactions
 // ============================================================
 
 // Theme toggle (no localStorage — sandboxed iframes block it)
@@ -142,7 +142,7 @@
 
       const formData = new FormData(form);
       const formName = form.dataset.formName || form.dataset.blcForm || 'Form';
-      formData.append('_subject', '[Be Love It Care] ' + formName);
+      formData.append('_subject', '[Beloveit Care] ' + formName);
       formData.append('_cc', CC_EMAIL);
       formData.append('_template', 'table');
       formData.append('_captcha', 'false');
