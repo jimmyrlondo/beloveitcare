@@ -166,7 +166,7 @@
           throw new Error('Submission failed');
         }
       } catch (err) {
-        setStatus(form, 'Sorry, something went wrong. Please call (216) 971-1023 or email a.nicole@upstarmhs.com.', 'error');
+        setStatus(form, 'Sorry, something went wrong. Please call (216) 910-4040 or email a.nicole@upstarmhs.com.', 'error');
       } finally {
         if (submitBtn) { submitBtn.disabled = false; submitBtn.innerHTML = originalText; }
       }

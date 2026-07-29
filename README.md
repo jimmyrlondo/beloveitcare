@@ -89,7 +89,7 @@ Form HTML markers to look for:
 ## Business info (used across pages)
 
 - **Address**: 34734 Vine Street, Eastlake, OH 44095
-- **Phone**: (216) 971-1023
+- **Phone**: (216) 910-4040
 - **Public email** (displayed on site): info@beloveitcare.com
 - **Hours**: Mon–Fri 8:00 AM – 5:00 PM
 
