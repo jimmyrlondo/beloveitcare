@@ -157,11 +157,11 @@
         const msg = (data && data.message) ? String(data.message).toLowerCase() : '';
         if (data && (data.success === 'true' || data.success === true)) {
           form.reset();
-          setStatus(form, 'Thank you — your message has been sent. We\u2019ll be in touch within 1–2 business days.', 'success');
+          setStatus(form, 'Thank you! Your message has been sent. We\u2019ll be in touch within 1–2 business days.', 'success');
         } else if (msg.includes('activation') || msg.includes('activate')) {
           // FormSubmit one-time verification — message reached the server
           form.reset();
-          setStatus(form, 'Thank you — your message has been sent. We\u2019ll be in touch within 1–2 business days.', 'success');
+          setStatus(form, 'Thank you! Your message has been sent. We\u2019ll be in touch within 1–2 business days.', 'success');
         } else {
           throw new Error('Submission failed');
         }
