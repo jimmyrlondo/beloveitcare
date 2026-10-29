@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>About Beloveit Care — Beloveit Care</title>
+  <title>About | Beloveit Care</title>
   <meta name="description" content="Beloveit Care is an Eastlake, Ohio agency providing tailored in-home and community-based support for youth and adults with disabilities across the state." />
   <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,13 +37,14 @@
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html" aria-current="page">About</a></li>
           <li><a href="./services.html">Services</a></li>
-          <li><a href="./start-services.html">Start Services</a></li>
+          <li class="nav-links__mobile"><a href="./start-services.html">Request Care</a></li>
           <li><a href="./careers.html">Careers</a></li>
           <li><a href="./ask.html">Ask a Question</a></li>
         </ul>
         <div class="nav-actions">
           <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"></button>
-          <a class="btn btn--primary" href="tel:+12169104040">Call (216) 910-4040</a>
+          <a class="btn btn--secondary nav-call" href="tel:+12169104040">Call (216) 910-4040</a>
+          <a class="btn btn--primary" href="./start-services.html">Request Care</a>
           <button class="nav-toggle" data-nav-toggle aria-label="Open menu" aria-expanded="false">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
           </button>
@@ -68,8 +69,8 @@
           <div class="reveal">
             <span class="section-eyebrow">Our Story</span>
             <h2 class="section-title">Care, shaped around each person.</h2>
-            <p class="prose">Many people with disabilities have unique needs and capabilities, and need services tailored to them. At Beloveit Care, you choose exactly what works — whether that's reliable transportation to a workplace, help preparing healthy meals at home, building skills for independent living, or simply having a trusted companion through the day.</p>
-            <p class="prose">We're based in Eastlake, Ohio (34734 Vine Street, Eastlake, OH 44095) and serve families across the state — partnering with county boards, SSAs, and other providers to deliver the right mix of support under DODD waiver plans.</p>
+            <p class="prose">Many people with disabilities have unique needs and capabilities, and need services tailored to them. At Beloveit Care, you choose exactly what works, whether that's reliable transportation to a workplace, help preparing healthy meals at home, building skills for independent living, or simply having a trusted companion through the day.</p>
+            <p class="prose">We're based in Eastlake, Ohio (34734 Vine Street, Eastlake, OH 44095) and serve families across the state, partnering with county boards, SSAs, and other providers to deliver the right mix of support under DODD waiver plans.</p>
             <p class="prose">Our company is also working to expand its offerings through a nonprofit program. For details, reach out to us today.</p>
             <div style="margin-top: var(--space-6); display:flex; gap: var(--space-3); flex-wrap: wrap;">
               <a class="btn btn--primary" href="./services.html">See our services <span class="arrow">→</span></a>
@@ -88,7 +89,7 @@
         <div class="reveal" style="text-align:center; max-width: 780px; margin: 0 auto;">
           <span class="section-eyebrow">Mission</span>
           <h2 class="section-title">"A passion and readiness to serve."</h2>
-          <p class="section-lede">That's the agency's mission, and it shapes every decision we make — from how we hire, to how we build a service plan, to how we show up at someone's door.</p>
+          <p class="section-lede">That's the agency's mission, and it shapes every decision we make, from how we hire, to how we build a service plan, to how we show up at someone's door.</p>
         </div>
       </div>
     </section>
@@ -102,7 +103,7 @@
         <div class="values-grid">
           <div class="value reveal">
             <h3>Compassion</h3>
-            <p>We meet every person with warmth, patience, and respect — no exceptions.</p>
+            <p>We meet every person with warmth, patience, and respect. No exceptions.</p>
           </div>
           <div class="value reveal">
             <h3>Person-Centered</h3>
@@ -120,11 +121,25 @@
       </div>
     </section>
 
+    <!-- ACCREDITATION -->
+    <section class="section--tight">
+      <div class="container">
+        <div class="accred-card reveal">
+          <img src="./assets/chap-seal.png" alt="CHAP Seal of Accreditation" width="120" height="120" loading="lazy" />
+          <div>
+            <span class="section-eyebrow">Accreditation</span>
+            <h2>CHAP Accredited</h2>
+            <p>Beloveit Care is accredited by the Community Health Accreditation Partner (CHAP), an independent, nationally recognized organization that has accredited home and community-based care providers since 1965. Accreditation means our services, policies, and staff were reviewed against national standards for quality and safety.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="container">
         <div class="cta-banner reveal">
           <h2>Serving families all across Ohio.</h2>
-          <p>Thank you for visiting — we're a team you can trust.</p>
+          <p>Thank you for visiting. We're a team you can trust.</p>
           <div style="display:flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap;">
             <a class="btn btn--primary btn--lg" href="tel:+12169104040">Call (216) 910-4040</a>
             <a class="btn btn--secondary btn--lg" href="./ask.html">Ask a question</a>
@@ -147,6 +162,10 @@
             <span><span class="brand-name">Beloveit Care</span><span class="brand-tagline">A Passion to Serve</span></span>
           </div>
           <p class="footer-tagline">In-home and community-based support for youth and adults with disabilities across Ohio.</p>
+          <div class="footer-chap">
+            <img src="./assets/chap-seal.png" alt="CHAP Seal of Accreditation" width="56" height="56" loading="lazy" />
+            <span>CHAP Accredited</span>
+          </div>
         </div>
         <div class="footer-col">
           <h4>Navigate</h4>
@@ -154,7 +173,7 @@
             <li><a href="./index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
             <li><a href="./services.html">Services</a></li>
-            <li><a href="./start-services.html">Start Services</a></li>
+            <li><a href="./start-services.html">Request Care</a></li>
             <li><a href="./careers.html">Careers</a></li>
             <li><a href="./ask.html">Ask a Question</a></li>
           </ul>
